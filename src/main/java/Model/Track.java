@@ -1,3 +1,5 @@
+package Model;
+
 public class Track {
 
     public String name;

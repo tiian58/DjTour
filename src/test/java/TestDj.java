@@ -1,3 +1,5 @@
+import Model.Dj;
+import Model.Track;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -15,6 +17,6 @@ public class TestDj {
         Track animals = new Track("Animals");
         martinGarrix.addTrack(animals);
 
-        assertEquals(2, martinGarrix.tracks.size());
+        assertEquals(1, martinGarrix.tracks.size());
     }
 }
