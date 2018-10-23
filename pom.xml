@@ -40,6 +40,22 @@
             <artifactId>spark-template-handlebars</artifactId>
             <version>2.3</version>
         </dependency>
+
+        <!-- JPA Persistence Dependencies -->
+        <dependency>
+            <groupId>org.uqbar-project</groupId>
+            <artifactId>jpa-java8-extras</artifactId>
+            <version>1.0-alpha-1</version>
+        </dependency>
+
+        <!-- driver jdbc -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.46</version>
+        </dependency>
+
+        <!-- TEST -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
